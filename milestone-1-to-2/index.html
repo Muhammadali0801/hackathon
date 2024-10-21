@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Muhammad Ali's interactive static resume with sections on personal information, education, skills, and work experience." />
+    <title>Muhammad Ali's Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Muhammad Ali's Resume</h1> <!-- Full-width heading -->
+
+    <div class="container">
+      <aside>
+        <!-- Sidebar -->
+        <div class="side-bar">
+          <div class="profile-img">
+          </div> <!-- Placeholder for Profile Image -->
+          <div class="career-objective">
+            <h2>Career Objective</h2>
+            <p>
+              Seeking a challenging role in a dynamic organization to apply my web development skills and contribute to innovative projects, while continuing to grow professionally and expand my expertise in modern technologies.
+            </p>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <section id="personal-info">
+          <h2>Personal Information</h2>
+          <p><strong>Name:</strong> Muhammad Ali</p>
+          <p><strong>Email:</strong> ma0637579@gmail.com</p>
+          <p><strong>Phone:</strong> 0312-0128544</p>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <p>
+            <strong>Intermediate in Commerce</strong> – <em>Board of Intermediate Education Karachi (2021)</em>
+          </p>
+          <p>
+            <strong>Matriculation in Computer Science</strong> – <em>S.M.B Academy (2019)</em>
+          </p>
+        </section>
+
+        <button id="toggle-skills-btn" aria-label="Toggle to show or hide skills section">Show Skills</button>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML, CSS, JavaScript, TypeScript</li>
+            <li>React, NEXT.js</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
+
+        <button id="toggle-work-btn" aria-label="Toggle to show or hide work experience section">Show Work Experience</button>
+        <section id="work-experience">
+          <h2>Work Experience</h2>
+          <p>
+            <strong>Call Center Agent</strong> – <em>Hello Communication (2019 – 2020)</em>
+          </p>
+          <p>
+            <strong>Quality Control Officer (QCO)</strong> – <em>Media Monitors (2021 – 2022)</em>
+          </p>
+          <p>
+            <strong>Quality Assurance (QA)</strong> – <em>Media Monitors (2022 – 2024)</em>
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
